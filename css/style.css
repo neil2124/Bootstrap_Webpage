@@ -1,0 +1,148 @@
+
+*{
+    color: #fff;
+    
+}
+
+
+/* Navbar Styling */
+#main .container .col-12 h1{
+
+    color: black
+
+    
+}
+
+
+.navbar .container li a:hover{
+
+    background: coral;
+    border-radius: 5px;
+   
+}
+
+.navbar .container li{
+
+    margin-right: 10px;
+}
+
+.navbar .container .logo{
+
+    font-weight: 700;
+}
+
+/* Utility Classes */
+
+.my-text-primary{
+
+    color: coral;
+}
+
+.bg-dark{
+
+    background: #333;
+}
+
+/* Header Styling*/
+
+#home{
+
+    
+    background:url(../img/showcase.jpg) no-repeat;
+    min-height: 700px;
+    background-size: cover;
+    
+}
+.dark-overlay{
+
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+}
+
+.home-inner{
+
+    padding-top: 150px;
+    
+    
+}
+
+.heading-1 h1{
+
+    font-size: xx-large;
+    font-weight: 800;
+    text-align: center;
+    
+    
+
+}
+
+
+
+.heading-1{
+
+    text-align: center;
+    justify-content: center;
+}
+
+/* Who Styling*/
+
+#who .container .col-md-8{
+
+    background: url(../img/people.jpg) no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    
+    
+}
+
+#who .container .who-content{
+
+    
+    padding-top: 30px;
+    padding-left: 40px;
+    
+
+}
+
+#who .container .who-content .team{
+
+    list-style: none;
+    padding-top: 20px;
+}
+
+#who .container .who-content .team li{
+
+    padding: 0.5rem;
+    border-bottom: #444 dotted 1px;
+}
+
+/* Contact Styling*/
+
+#contact .row .contact-content{
+
+    
+    text-align: center;
+    background-color:coral;
+    padding: 100px;
+    border: #333 1px solid;
+}
+
+#contact .row .contact-content .contact-form h1,p{
+
+    margin-bottom: 20px;
+    color: black;
+}
+
+.text-center{
+    opacity: 0.8;
+}
+
+#contact .contact-form h2{
+
+    margin-bottom: 70px;
+}
+
